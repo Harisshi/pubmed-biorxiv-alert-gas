@@ -1,0 +1,11 @@
+{
+  "name": "new-article-alert-with-gas",
+  "version": "4.0.0",
+  "description": "PubMed と bioRxiv の新着論文を検索し、LINE / Slack / メールへ通知する Google Apps Script",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "node scripts/check-syntax.js"
+  }
+}
