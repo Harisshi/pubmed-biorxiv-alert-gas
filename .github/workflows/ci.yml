@@ -18,5 +18,8 @@ jobs:
       - name: 構文チェック
         run: npm run lint
 
+      - name: コピペ用ファイルが src と一致しているか確認
+        run: npm run build:check
+
       - name: ユニットテスト
         run: npm test

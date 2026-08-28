@@ -5,7 +5,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "node --test test/*.test.js",
-    "lint": "node scripts/check-syntax.js"
+    "build": "node scripts/build-bundle.js",
+    "build:check": "node scripts/build-bundle.js --check",
+    "lint": "node scripts/check-syntax.js",
+    "test": "node --test test/*.test.js"
   }
 }
